@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos input {
+  width: 20%;
+  height: 35px;
+  font-size: 1.2em;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.employee-list {
+  margin-top: 25px;
+}
+
+.employee-list > div {
+  margin-top: 3px;
+  font-size: 1.1em;
+}
+
+button {
+  width: 20%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+label {
+  margin: 30px 0 10px 0;
+  font-size: 1.2em;
+}
+
+.hr-line {
+  border-bottom: 1px solid dimgray;
+  width: 70%;
+  margin: 50px auto 0;
+}
