@@ -51,7 +51,11 @@ function App() {
           <div className='employee-list'>
             { employeeList.map((value) => {
               return (
-                <div key={ value.id }>{ value.name }</div>
+                <div className='list' key={ value.id }>
+                  <h3>{ value.name }</h3>
+                  <p>{ value.age }</p>
+                  <p>{ value.gender }</p>
+                </div>
               );
             }) }
           </div>

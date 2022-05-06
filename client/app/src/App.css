@@ -33,6 +33,10 @@
 .employee-list > div {
   margin-top: 3px;
   font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
 }
 
 button {
